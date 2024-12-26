@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/innobytesproject/static/css/main.ce3437e1.css",
+    "main.js": "/innobytesproject/static/js/main.257b6c59.js",
+    "static/js/488.aef7fd10.chunk.js": "/innobytesproject/static/js/488.aef7fd10.chunk.js",
+    "static/media/out.jpg": "/innobytesproject/static/media/out.3f0345578753e5672b9b.jpg",
+    "static/media/flower.jpg": "/innobytesproject/static/media/flower.6ca69840b9c8e0d7cbcd.jpg",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/innobytesproject/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/recep.jpg": "/innobytesproject/static/media/recep.0f616ee6d0575a5502b3.jpg",
+    "static/media/palash.webp": "/innobytesproject/static/media/palash.f542206031da97c86d08.webp",
+    "static/media/ayodhya.webp": "/innobytesproject/static/media/ayodhya.f15544cda482bc178192.webp",
+    "static/media/room1.jpg": "/innobytesproject/static/media/room1.7bb2016589e3a067e88c.jpg",
+    "static/media/fontawesome-webfont.eot": "/innobytesproject/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/innobytesproject/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/small.jpg": "/innobytesproject/static/media/small.004ee162cd79856f18cc.jpg",
+    "static/media/large.jpg": "/innobytesproject/static/media/large.f6bdaca0cda5c1bc7251.jpg",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/innobytesproject/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/innobytesproject/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/baranti.webp": "/innobytesproject/static/media/baranti.54745f305a8ffb080bf3.webp",
+    "index.html": "/innobytesproject/index.html",
+    "main.ce3437e1.css.map": "/innobytesproject/static/css/main.ce3437e1.css.map",
+    "main.257b6c59.js.map": "/innobytesproject/static/js/main.257b6c59.js.map",
+    "488.aef7fd10.chunk.js.map": "/innobytesproject/static/js/488.aef7fd10.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce3437e1.css",
+    "static/js/main.257b6c59.js"
+  ]
+}
