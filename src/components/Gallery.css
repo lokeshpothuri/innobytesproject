@@ -1,0 +1,37 @@
+.galhead{
+    margin-left: 600px;
+    font-size: 20px;
+    /* font-weight: 20px; */
+    letter-spacing: 20px;
+    margin-top: 120px;
+}
+
+/* .hrtag{
+    margin-top: -13px;
+    border: none;
+    margin-left: 90px;
+    width: 70px;
+    height: 3px;
+    background-color: rgb(240, 10, 144);
+} */
+
+.masonry-container {
+    column-count: 4; /* Number of columns */
+    column-gap: 5px; /* Gap between columns */
+    padding: 10px;
+}
+
+/* Individual items adjust to column structure */
+.masonry-item {
+    break-inside: avoid; 
+    margin-bottom: 5px; /* Gap between items vertically */
+}
+
+/* Styling images */
+.masonry-image {
+    width: 100%;
+    display: block;
+    border-radius: 8px;
+    /* object-fit: contain;  */
+    box-shadow: 0 4px 8px rgba(4, 71, 242, 0.2); /* Add shadow for depth */
+}

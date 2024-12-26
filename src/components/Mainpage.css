@@ -1,0 +1,69 @@
+
+.main-page {
+    height: 100vh;
+    background-image: url('../assets/ayodhya.webp');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.textual {
+    margin-top: 200px;
+}
+
+.content p {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.content h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+    margin: 10px 0;
+}
+
+.highlight {
+    color: #ff4081;
+    font-weight: bold;
+}
+
+.book-now {
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    color: white;
+    background-color: #ff4081;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.book-now:hover {
+    background-color: #e73370;
+}
+
+.rectangle-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -35px;
+}
+
+.rectangle-box {
+    width: 80%;
+    max-width: 800px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+} 

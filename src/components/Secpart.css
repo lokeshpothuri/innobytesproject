@@ -1,0 +1,224 @@
+/* .container {
+    display: flex;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 20px;
+    
+    border-radius: 10px;
+}
+
+.image-section {
+    flex: 2;
+    margin-left: 200px;
+}
+
+.guest-image {
+    max-width: 70%;
+    border-radius: 10px;
+}
+
+.content-section {
+    flex: 2;
+    max-width: 600px;
+}
+
+.about-heading {
+    color: #e60073;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-left: -75px;
+}
+
+.main-heading {
+    font-size: 28px;
+    color: #222;
+    margin-bottom: 20px;
+    margin-left: -75px;
+}
+
+.description {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    margin-left: -75px;
+}
+
+.address {
+    color: #333;
+    margin-bottom: 20px;
+    margin-left: -75px;
+}
+
+.book-button {
+    margin-left: -75px;
+    background-color: #e60073;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.book-button:hover {
+    background-color: #d00067;
+} */
+
+/* Main container styling */
+.container {
+    display: flex;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Image section styling */
+.image-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /* Added spacing for smaller screens */
+}
+
+.guest-image {
+    max-width: 75%;
+    height: 550px;
+    border-radius: 10px;
+}
+
+/* Content section styling */
+.content-section {
+    flex: 1;
+    max-width: 600px;
+    /* text-align: center; Center text for smaller screens */
+    margin-right: 80px;
+}
+
+/* Heading and text styling */
+.about-heading {
+    color: #e60073;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.main-heading {
+    font-size: 28px;
+    color: #222;
+    margin-bottom: 20px;
+}
+
+.description {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: justify; /* Better readability for larger screens */
+}
+
+.address {
+    color: #0816dc;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+/* Button styling */
+.book-button {
+    background-color: #e60073;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.book-button:hover {
+    background-color: #d00067;
+}
+
+/* Responsive styling */
+
+/* Tablets and smaller desktops */
+@media (max-width: 1024px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-section {
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .guest-image {
+        max-width: 80%;
+    }
+
+    .content-section {
+        max-width: 80%;
+    }
+
+    .main-heading {
+        font-size: 24px;
+    }
+
+    .description, .address {
+        font-size: 14px;
+    }
+}
+
+/* Mobile phones */
+@media (max-width: 768px) {
+    .container {
+        margin-top: 50px;
+    }
+
+    .guest-image {
+        max-width: 90%;
+    }
+
+    .main-heading {
+        font-size: 20px;
+    }
+
+    .description, .address {
+        font-size: 13px;
+    }
+
+    .book-button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
+
+/* Small mobile devices */
+@media (max-width: 480px) {
+    .container {
+        margin-top: 20px;
+        padding: 10px;
+    }
+
+    .guest-image {
+        max-width: 100%;
+    }
+
+    .main-heading {
+        font-size: 18px;
+    }
+
+    .description, .address {
+        font-size: 12px;
+        line-height: 1.4;
+    }
+
+    .book-button {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+}
